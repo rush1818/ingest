@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/rush1818/maze-runner#readme",
   "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
     "webpack": "^1.13.2"
   }
 }
