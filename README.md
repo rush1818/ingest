@@ -1,15 +1,15 @@
-# Maze Runner
+# Ingest
 
 ## Background
 
-Maze Runner is a game where the player attempts to navigate a ball through a maze. The maze has obstacles along the course which the player must avoid. If the player collides with an obstacle, the size of the ball gets bigger. The player can continue to play until the ball grows bigger than the width of the maze wall.
+Ingest is a game inspired by agar.io where the player attempts to navigate a ball attempting to ingest balls smaller in size and avoiding balls larger in size. The game is over if the ball collides with a ball larger than itself.
 
 
 ## Functionality & MVP
 
 During the gameplay, players will be able to:
 * Start and reset the game
-* Play different levels
+* Use arrow or wasd keys to control the ball
 
 In addition, the project will include:
 * An About modal describing the background and rules of the game
@@ -45,17 +45,17 @@ In addition to the Webpack entry file, there will be several scripts involved in
 
 ### Implementation Timeline
 **Day 1**:
-Setup skeleton of all files and the entry file for Webpack. Work on Maze script. Goals for the day:
+Setup skeleton of all files and the entry file for Webpack. Work on board script. Goals for the day:
 * Setup Webpack
-* Get a basic maze and game to render on the canvas
+* Get a basic board and game to render on the canvas
 
 **Day 2**
-Improve Maze to handle collisions. Create `ball` and place it in maze. Setup keyboard listeners to move ball in maze. Goal of the day:
-* Complete `maze`
-* Render `ball` in maze
+Create `ball` and place it on the board. Setup keyboard listeners to move ball. Goal of the day:
+* Render `ball`
+* Handle collisions of balls
 
 **Day 3**
-Write `game` to handle overall game logic. Add obstacles along the maze.
+Write `game` to handle overall game logic
 
 
 **Day 4**
@@ -67,6 +67,6 @@ Add controls to start and reset the game. Style the canvas.
 
 Some anticipated updates are:
 
-* Have the obstacles move around to increase difficulty
-* Add multiplayer options
+* Add controls to adjust difficulty
 * Add score leaderboard
+* Add multiplayer options
