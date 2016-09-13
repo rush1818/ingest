@@ -37,7 +37,7 @@ In addition to the Webpack entry file, there will be several scripts involved in
 
 `game.js`: this script will handle the logic for creating and updating the necessary elements and rendering them to the DOM.
 
-`maze.js`: this script will handle the logic behind the maze which will check for collisions.
+`moving_object.js`: this script will handle the logic behind the moving the balls and will check for collisions.
 
 `ball.js`: this lightweight script will house the constructor and update functions for the `Ball` object.
 
