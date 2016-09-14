@@ -133,11 +133,16 @@ img {
 }
 
 .game-over-modal-content{
-
+  padding: 160px 0;
 }
-
+.game-over-modal-content h1:last-child{
+  padding-top: 20px;
+}
 .new-level-modal-content{
-
+  padding: 160px 0;
+}
+.game-over-modal-content h1:last-child{
+  padding-top: 20px;
 }
 
 .modal-close {
