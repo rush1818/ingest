@@ -51,9 +51,8 @@ img {
 }
 
 .header{
-  background: blue;
-  height: 100px;
-
+  background: black;
+  height: 65px;
 }
 
 .header-content{
@@ -62,9 +61,27 @@ img {
   font-size: 16px;
 }
 
+.header, .footer {
+  color: white;
+}
 
+.footer{
+  height: 35px;
+  background: black;
+}
+.footer-content{
+  width: 900px;
+  margin: 0 auto;
+  font-size: 16px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+}
 
-
+.footer-content.visible{
+  display: block;
+}
 
 .modal {
   display: none;
@@ -90,9 +107,29 @@ img {
   padding: 50px;
   margin-left: -250px;
   transform: translateY(-50%);
-  background: white;
-  border-radius: 5px;
+  background: black;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+
 }
+
+.intro-modal-content{
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+
+.intro-modal-content h1 {
+  font-size: 22px;
+}
+.intro-modal-content h2 {
+  font-size: 18px;
+  padding: 15px 5px 0 0;
+}
+.intro-modal-content h1:last-child{
+  padding-top: 20px;
+}
+
 .modal-close {
   position: absolute;
   top: 0;
