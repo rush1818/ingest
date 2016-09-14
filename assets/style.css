@@ -87,7 +87,8 @@ body{
   justify-content: center;
 }
 
-.game-buttons button {
+.game-buttons span {
+  cursor: pointer;
   margin: 5px;
   border: 1px solid white;
   padding: 3px;
@@ -95,7 +96,7 @@ body{
   border-style: outset;
 }
 
-.game-buttons button:hover {
+.game-buttons span:hover {
   border-style: inset;;
 }
 
