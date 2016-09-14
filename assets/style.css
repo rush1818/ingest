@@ -52,6 +52,8 @@ img {
 
 .header{
   background: blue;
+  height: 100px;
+
 }
 
 .header-content{
@@ -102,4 +104,10 @@ img {
 }
 .modal-close:hover {
   color: black;
+}
+.game-controls{
+  display: none
+}
+.game-controls.visible{
+  display: block;
 }
