@@ -44,6 +44,9 @@ img {
 }
 
 /*------------*/
+body{
+  background: #cdcdcd;
+}
 
 .canvas{
   display: block;
@@ -56,9 +59,44 @@ img {
 }
 
 .header-content{
-  width: 900px;
+  /*width: 900px;*/
   margin: 0 auto;
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.header-content h1{
+  font-size: 22px;
+  margin-left: 10vh;
+  font-family: sans-serif;
+  display: inline;
+}
+.header-content .links{
+  width: 50px;
+  display: block;
+  margin-right: 5vh;
+  display: flex;
+}
+
+.header-content .links a:first-child{
+  margin-right: 5px;
+}
+.game-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.game-buttons button {
+  margin: 5px;
+  border: 1px solid white;
+  padding: 3px;
+  box-shadow: 0 0 5px white;
+  border-style: outset;
+}
+
+.game-buttons button:hover {
+  border-style: inset;;
 }
 
 .header, .footer {
@@ -70,7 +108,7 @@ img {
   background: black;
 }
 .footer-content{
-  width: 900px;
+  /*width: 900px;*/
   margin: 0 auto;
   font-size: 16px;
   padding-top: 5px;
