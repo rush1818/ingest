@@ -1,4 +1,5 @@
-# Ingest
+# [Ingest][live_link]
+[live_link]: http://www.rushabhs.com/ingest/
 
 ## Background
 
