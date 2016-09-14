@@ -1,5 +1,5 @@
 {
-  "name": "injest",
+  "name": "ingest",
   "version": "1.0.0",
   "description": "## Background",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rush1818/injest.git"
+    "url": "git+https://github.com/rush1818/ingest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rush1818/injest/issues"
+    "url": "https://github.com/rush1818/ingest/issues"
   },
-  "homepage": "https://github.com/rush1818/injest#readme",
+  "homepage": "https://github.com/rush1818/ingest#readme",
   "dependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
