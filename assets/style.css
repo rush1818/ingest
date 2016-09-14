@@ -114,20 +114,30 @@ img {
 
 }
 
+.modal-content h1{
+  font-size: 22px
+}
+.modal-content h2{
+  font-size: 18px;
+}
 .intro-modal-content{
   padding: 120px 0;
   box-sizing: border-box;
 }
 
-.intro-modal-content h1 {
-  font-size: 22px;
-}
 .intro-modal-content h2 {
-  font-size: 18px;
   padding: 15px 5px 0 0;
 }
 .intro-modal-content h1:last-child{
   padding-top: 20px;
+}
+
+.game-over-modal-content{
+
+}
+
+.new-level-modal-content{
+
 }
 
 .modal-close {
