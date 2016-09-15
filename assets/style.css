@@ -166,6 +166,7 @@ body{
 
 .intro-modal-content h2 {
   padding: 15px 5px 0 0;
+  color: cadetblue;
 }
 .intro-modal-content h1:last-child{
   padding-top: 20px;
@@ -179,6 +180,9 @@ body{
 }
 .new-level-modal-content{
   padding: 160px 0;
+}
+.new-level-modal-content h1:last-child{
+  padding-top: 20px;
 }
 .game-over-modal-content h1:last-child{
   padding-top: 20px;
@@ -201,4 +205,23 @@ body{
 }
 .game-controls.visible{
   display: block;
+}
+
+@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+
+.modal.is-closed {
+  opacity:1;
+  -webkit-animation:fadeOut ease-in 1;
+  -moz-animation:fadeOut ease-in 1;
+  animation:fadeOut ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
 }
