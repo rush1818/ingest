@@ -10,10 +10,10 @@ Ingest is a browser based game inspired by agar.io.
 
 ## Goal
 
-The goal is to move around ingesting cells that are smaller while avoiding larger cells. Use the keyboard Use ↑↓→← or WASD keys to control your cell.
+The goal of the game is to ingest cells which are smaller while avoiding cells that are larger than your own. Use the ↑↓→← or WASD keys to control your cell.
 
 ## Logic behind ingesting cells
-Collision between two cells is checked by measuring the distance between them. If the player's cell collides with a cell larger than itself then the player looses. If the collided cell is small than the player's cell then the radius of the smaller cell is added to the player's cell and the smaller cell is removed from the game.
+Collision between two cells is checked by measuring the distance between two cells. If the player's cell collides with a cell larger than itself then the player loses. If the collided cell is smaller than the player's cell then the radius of the smaller cell is added to the player's cell and the smaller cell is removed from the game.
 
 ```javascript
 /// game.js
