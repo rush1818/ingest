@@ -5,7 +5,7 @@
 
 Ingest is a browser based game inspired by agar.io.
 
-![game](./docs/game.png)
+![game](./docs/ingest.gif)
 
 
 ## Goal
